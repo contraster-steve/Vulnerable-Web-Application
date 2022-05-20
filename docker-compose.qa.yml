@@ -1,0 +1,9 @@
+version: '3.4'
+
+services:
+  Vulnerable-Web-Application:
+    environment:
+      - CONTRAST__SERVER__NAME=Vulnerable-Web-Application-qa
+      - CONTRAST__SERVER__ENVIRONMENT=qa 
+      - CONTRAST__ASSESS__ENABLE=true
+      - CONTRAST__PROTECT__ENABLE=false
